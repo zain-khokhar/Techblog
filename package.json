@@ -1,0 +1,39 @@
+{
+  "name": "ai-tech-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build && echo.> out/.nojekyll",
+    "deploy": "gh-pages -d out --dotfiles"
+  },
+  "dependencies": {
+    "@tiptap/extension-highlight": "^2.22.0",
+    "@tiptap/extension-link": "^2.22.0",
+    "@tiptap/pm": "^2.22.0",
+    "@tiptap/react": "^2.22.0",
+    "@tiptap/starter-kit": "^2.22.0",
+    "lucide-react": "^0.523.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.2",
+    "next": "15.3.3",
+    "next-themes": "^0.4.6",
+    "node-cron": "^4.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "homepage": "https://osmanbey918.github.io/AiTechBlog"
+}
